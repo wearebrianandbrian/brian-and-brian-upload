@@ -185,6 +185,9 @@ button { font: inherit; color: inherit; }
 .contact-lead { max-width: 34ch; font-size: clamp(18px, 1.5vw, 21px); line-height: 1.5; margin: 0 0 24px; }
 .contact-direct { margin: 0; color: var(--ink-soft); line-height: 1.6; }
 .contact-direct a { color: var(--ink); font-weight: 400; text-decoration-color: var(--coral); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.contact-cta { display: grid; gap: 14px; justify-items: start; align-self: center; }
+.contact-cta .button-big { font-size: clamp(20px, 2vw, 26px); padding: 22px 44px; }
+.contact-cta-note { margin: 0; color: var(--ink-soft); font-size: 14px; }
 .contact-form { display: grid; gap: 20px; }
 .contact-form .hp { position: absolute; left: -9999px; }
 .field { display: grid; gap: 8px; }
